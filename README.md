@@ -87,9 +87,7 @@ This project simulates a basic student portal with registration, dashboard, cour
 
 ## 🙌 Author
 
-**Your Name Here**  
+UMM E AMMARA
 BS Cyber Security Student  
 
----
 
-⭐ *If you like this project, consider giving it a star!*
