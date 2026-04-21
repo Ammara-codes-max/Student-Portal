@@ -42,16 +42,22 @@ This project simulates a basic student portal with registration, dashboard, cour
 ## 📸 Screenshots
 
 •	Home Page
+<img width="1131" height="522" alt="image" src="https://github.com/user-attachments/assets/5a468725-b470-42f4-ba40-57ce358d0900" />
+
 
 •	Registration Page
+<img width="830" height="631" alt="image" src="https://github.com/user-attachments/assets/94159233-5a41-4902-a77f-71f3d1939246" />
 
  
 •	Dashboard Page
- 
+ <img width="1004" height="388" alt="image" src="https://github.com/user-attachments/assets/a341ef57-bb5c-49b6-8dd9-64dd4669b3ae" />
+
 •	Courses Page
- 
+ <img width="1004" height="628" alt="image" src="https://github.com/user-attachments/assets/ab1b04c7-bdf3-4b31-b8a4-44c514fa8f8a" />
+
 •	Feedback Page
  
+<img width="951" height="610" alt="image" src="https://github.com/user-attachments/assets/89e3d9ea-b15a-46f3-9564-42176a340e4f" />
 
 
 ## 🎯 Learning Outcomes
