@@ -1,4 +1,4 @@
-<img width="226" height="301" alt="image" src="https://github.com/user-attachments/assets/768b3dd6-982e-4e3f-aea3-8583af239525" /># 🎓 Mini Student Web Portal
+
 
 A modern multi-page web application developed using **HTML, CSS, Bootstrap, and JavaScript**.  
 This project simulates a basic student portal with registration, dashboard, course selection, and feedback features.
@@ -27,18 +27,7 @@ This project simulates a basic student portal with registration, dashboard, cour
 ---
 
 ## 📂 Project Structure
-student-portal/
-│
-├── index.html
-├── registration.html
-├── dashboard.html
-├── courses.html
-├── feedback.html
-├── style.css
-├── script.js
-├── bg.jpg
-└── logo.png
-
+<img width="226" height="301" alt="image" src="https://github.com/user-attachments/assets/768b3dd6-982e-4e3f-aea3-8583af239525" /># 🎓 Mini Student Web Portal
 
 ---
 
@@ -52,9 +41,18 @@ student-portal/
 
 ## 📸 Screenshots
 
-_Add screenshots of your project here (Home, Registration, Dashboard, etc.)_
+•	Home Page
 
----
+•	Registration Page
+
+ 
+•	Dashboard Page
+ 
+•	Courses Page
+ 
+•	Feedback Page
+ 
+
 
 ## 🎯 Learning Outcomes
 
