@@ -1,0 +1,142 @@
+/* ===================== GLOBAL ===================== */
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+color:white;
+
+/* Background Image + Dark Overlay */
+background:
+linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('bg.jpg');
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+}
+
+/* ===================== SIDEBAR ===================== */
+.sidebar{
+position:fixed;
+top:0;
+left:0;
+height:100%;
+width:220px;
+background:#0f172a;
+padding-top:20px;
+box-shadow:2px 0 15px rgba(0,0,0,0.5);
+}
+
+/* Logo */
+.logo{
+text-align:center;
+margin-bottom:20px;
+}
+.logo img{
+width:80px;
+border-radius:50%;
+border:2px solid #38bdf8;
+}
+
+/* Sidebar Links */
+.sidebar a{
+display:block;
+padding:15px;
+color:#cbd5e1;
+text-decoration:none;
+transition:0.3s;
+font-weight:500;
+}
+
+.sidebar a:hover{
+background:#1e293b;
+color:#38bdf8;
+padding-left:20px;
+border-left:4px solid #38bdf8;
+}
+
+/* ===================== CONTENT ===================== */
+.content{
+margin-left:240px;
+padding:30px;
+}
+
+/* ===================== CARD ===================== */
+.card{
+background:rgba(255,255,255,0.08);
+border:1px solid rgba(56,189,248,0.6); /* Highlighted border */
+border-radius:15px;
+backdrop-filter:blur(12px);
+box-shadow:0 0 25px rgba(56,189,248,0.3);
+}
+
+/* ===================== INPUTS ===================== */
+.form-control{
+background:rgba(0,0,0,0.6);
+border:1px solid rgba(255,255,255,0.2);
+color:white;
+padding:10px;
+border-radius:8px;
+}
+
+.form-control::placeholder{
+color:#94a3b8;
+}
+
+.form-control:focus{
+border:1px solid #38bdf8;
+box-shadow:0 0 8px #38bdf8;
+background:rgba(0,0,0,0.7);
+outline:none;
+}
+
+/* ===================== TEXT ===================== */
+h1, h2, h3{
+color:#e2e8f0;
+font-weight:bold;
+}
+
+p, label{
+color:#cbd5e1;
+}
+
+/* Highlight Headings */
+.glow{
+color:#38bdf8;
+text-shadow:0 0 10px #38bdf8;
+}
+
+/* ===================== BUTTON ===================== */
+.btn-glow{
+background:#38bdf8;
+border:none;
+color:#000;
+font-weight:bold;
+padding:10px;
+border-radius:10px;
+box-shadow:0 0 10px #38bdf8;
+transition:0.3s;
+}
+
+.btn-glow:hover{
+background:#0ea5e9;
+color:white;
+box-shadow:0 0 15px #38bdf8;
+}
+
+/* ===================== CENTER ALIGN ===================== */
+.center-box{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+/* ===================== SCROLLBAR (OPTIONAL COOL TOUCH) ===================== */
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+background:#38bdf8;
+border-radius:10px;
+}

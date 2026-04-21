@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<a href="index.html">Home</a>
+</head>
+
+<body>
+
+<div class="sidebar">
+<div class="logo">
+<img src="logo.png">
+</div>
+
+<a href="registration.html">Register</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="courses.html">Courses</a>
+<a href="feedback.html">Feedback</a>
+</div>
+
+<div class="content center-box">
+<div class="card p-4" style="width:350px;">
+<h2 class="glow">Register</h2>
+
+<form onsubmit="return validateForm()">
+<input id="name" class="form-control my-2" placeholder="Name">
+<input id="email" class="form-control my-2" placeholder="Email">
+<input type="password" id="pass" class="form-control my-2" placeholder="Password">
+<input type="password" id="cpass" class="form-control my-2" placeholder="Confirm Password">
+<input id="age" class="form-control my-2" placeholder="Age">
+
+<select id="gender" class="form-control my-2">
+<option value="">Gender</option>
+<option>Male</option>
+<option>Female</option>
+</select>
+
+<button class="btn btn-glow w-100">Register</button>
+</form>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
